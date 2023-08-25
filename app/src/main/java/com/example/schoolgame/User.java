@@ -65,10 +65,6 @@ public class User {
         this.encryptedPass = encryptedPass;
     }
 
-//    public String getPassword() {
-//        return Encryption.decrypt(encryptedPass);
-//    }
-
     public static class Encryption {
 
         private static Map<Character, Character> key;
