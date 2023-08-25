@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "479728474510",
+    "project_id": "school-topia",
+    "storage_bucket": "school-topia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479728474510:android:1d81ce9766acbe72102cdf",
+        "android_client_info": {
+          "package_name": "com.example.schoolgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479728474510-701giup4aeh0clin7okil6gp5bns430r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrXzyyNsZCjM1cb3B-R4UkIgk-SIyLGcg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479728474510-701giup4aeh0clin7okil6gp5bns430r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

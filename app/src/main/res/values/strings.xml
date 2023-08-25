@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">School Game</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signup">Signup</string>
+    <string name="showpass">Show Password</string>
+    <string name="login">Login</string>
+    <string-array name="Kmath">
+        <item>4 + 3</item>
+        <item>9 - 4</item>
+        <item>8 + 8</item>
+        <item>30 - 18</item>
+        <item>Tasha has 2 apples. Her brother Tom has 8 apples. How many apples are in total?</item>
+    </string-array>
+    <string-array name="KmathAns">
+        <item>7</item>
+        <item>5</item>
+        <item>16</item>
+        <item>12</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="Kenglish">
+        <item>What\'s a word that begins in \'s\' and ends in \'un\'?</item>
+        <item>What\'s the past tense of look?</item>
+    </string-array>
+    <string-array name="KenglishAns">
+        <item>sun</item>
+        <item>looked</item>
+    </string-array>
+    <string-array name="Khistory">
+        <item>The American flag is red, white, and ____.</item>
+        <item>______ Washington was the first US president.</item>
+    </string-array>
+    <string-array name="KhistoryAns">
+        <item>blue</item>
+        <item>George</item>
+    </string-array>
+    <string-array name="Kscience">
+        <item>What do we call freezing water?</item>
+        <item>What do bees collect from flowers?</item>
+    </string-array>
+    <string-array name="KscienceAns">
+        <item>ice</item>
+        <item>nectar</item>
+    </string-array>
+</resources>
