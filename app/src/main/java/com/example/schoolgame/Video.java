@@ -44,6 +44,7 @@ public class Video extends AppCompatActivity {
                 String input = answer.getText().toString();
 
                 if (input.equalsIgnoreCase(ans)) {
+                    Toast.makeText(Video.this, "Correct!", Toast.LENGTH_LONG).show();
                     Intent intent = new Intent(getApplicationContext(), MainScreen.class);
                     intent.putExtra(POINTS, points);
                     setResult(3000, intent);

@@ -44,6 +44,7 @@ public class Pset extends AppCompatActivity {
                 String input = answer.getText().toString();
 
                 if (input.equalsIgnoreCase(ans)) {
+                    Toast.makeText(Pset.this, "Correct!", Toast.LENGTH_LONG).show();
                     Intent intent = new Intent(getApplicationContext(), MainScreen.class);
                     intent.putExtra(POINTS, points);
                     setResult(1000, intent);

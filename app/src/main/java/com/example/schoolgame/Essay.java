@@ -44,6 +44,7 @@ public class Essay extends AppCompatActivity {
                 String input = answer.getText().toString();
 
                 if (input.equalsIgnoreCase(ans)) {
+                    Toast.makeText(Essay.this, "Correct!", Toast.LENGTH_LONG).show();
                     Intent intent = new Intent(getApplicationContext(), MainScreen.class);
                     intent.putExtra(POINTS, points);
                     setResult(2000, intent);
