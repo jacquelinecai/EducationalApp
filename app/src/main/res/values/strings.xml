@@ -4,8 +4,11 @@
     <string name="lastname">Last Name</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
+    <string name="passagain">Confirm Password</string>
+    <string name="forgotpass">Forgot Password</string>
     <string name="signup">Signup</string>
     <string name="showpass">Show Password</string>
+    <string name="changepass">Change Password</string>
     <string name="login">Login</string>
     <string-array name="Kmath">
         <item>4 + 3</item>

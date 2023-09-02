@@ -10,6 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SchoolGame">
         <activity
+            android:name=".ChangePass"
+            android:parentActivityName=".Login">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
             android:name=".Lab"
             android:parentActivityName=".MainScreen">
             <meta-data

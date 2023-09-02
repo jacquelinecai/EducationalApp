@@ -74,4 +74,9 @@ public class Login extends AppCompatActivity {
             passVisible = false;
         }
     }
+
+    public void forgotPass(View view) {
+        Intent intent = new Intent(this, ChangePass.class);
+        startActivity(intent);
+    }
 }
